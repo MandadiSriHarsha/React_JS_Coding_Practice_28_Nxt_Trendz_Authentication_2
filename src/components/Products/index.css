@@ -1,0 +1,19 @@
+.products-bg-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-image {
+  height: 200px;
+  width: 200px;
+}
+
+@media (min-width: 768px) {
+  .products-image {
+    height: 350px;
+    width: 350px;
+  }
+}
